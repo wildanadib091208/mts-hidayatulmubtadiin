@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Portal | MTs Hidayatul Mubtadiin</title>
+  <meta name="description" content="Login admin dan siswa MTs Hidayatul Mubtadiin.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <main class="auth-shell">
+    <section class="card auth-card">
+      <a class="desktop-brand" href="../index.html" style="margin-bottom:20px"><span class="brand-logo"><img src="../assets/images/logo-mts-small.png" alt="Logo MTs Hidayatul Mubtadiin"></span><span>MTs Hidayatul Mubtadiin</span></a>
+      <div class="tabs" role="tablist"><button class="tab active" data-login-tab="admin" type="button">Admin</button><button class="tab" data-login-tab="siswa" type="button">Siswa</button></div>
+      <form id="admin-login" class="form-grid">
+        <div class="field"><label for="admin-email">Email Admin</label><input id="admin-email" name="admin-email" type="email" required placeholder="admin@sekolah.sch.id"></div>
+        <div class="field"><label for="admin-password">Password</label><input id="admin-password" name="admin-password" type="password" required></div>
+        <button class="btn btn-primary" type="submit"><i class="fa-solid fa-right-to-bracket"></i> Login Admin</button>
+      </form>
+      <form id="siswa-login" class="form-grid" style="display:none">
+        <div class="field"><label for="siswa-nisn">NISN</label><input id="siswa-nisn" name="siswa-nisn" inputmode="numeric" required></div>
+        <div class="field"><label for="siswa-password">Password</label><input id="siswa-password" name="siswa-password" type="password" required></div>
+        <button class="btn btn-primary" type="submit"><i class="fa-solid fa-graduation-cap"></i> Login Siswa</button>
+      </form>
+      <p id="login-status" class="lead" role="status"></p>
+      <div class="alert">Isi Firebase config agar Auth aktif. Saat config masih placeholder, tombol login masuk ke mode demo lokal.</div>
+    </section>
+  </main>
+  <script src="../assets/js/app.js" defer></script>
+  <script src="../assets/js/login.js" defer></script>
+  <script type="module" src="../firebase/auth.js"></script>
+</body>
+</html>
+

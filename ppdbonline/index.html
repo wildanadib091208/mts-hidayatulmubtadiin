@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PPDB Online | MTs Hidayatul Mubtadiin</title>
+  <meta name="description" content="Form PPDB online MTs Hidayatul Mubtadiin dengan validasi, unggah berkas, dan konfirmasi WhatsApp.">
+  <link rel="canonical" href="https://example.github.io/ppdbonline/">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header"><div class="topbar"><button class="icon-btn menu-toggle" aria-label="Menu"><i class="fa-solid fa-bars"></i></button><a class="brand-logo" href="../index.html"><img src="../assets/images/logo-mts-small.png" alt="Logo MTs Hidayatul Mubtadiin"></a><div class="brand-title"><strong>PPDB Online</strong><span>MTs Hidayatul Mubtadiin</span></div><button class="icon-btn search-toggle" aria-label="Cari"><i class="fa-solid fa-magnifying-glass"></i></button><button class="icon-btn theme-toggle" aria-label="Dark mode"><i class="fa-solid theme-icon fa-moon"></i></button></div><nav class="mobile-nav"><a class="nav-pill" href="../index.html">Home</a><a class="nav-pill" href="../profil/index.html">Profil</a><a class="nav-pill active" href="index.html">PPDB</a><a class="nav-pill" href="../berita/index.html">Berita</a><a class="nav-pill" href="../galeri/index.html">Galeri</a><a class="nav-pill" href="../kontak/index.html">Kontak</a></nav><div class="running-text mobile-running" aria-label="Informasi berjalan mobile"><span class="ticker-label"><i class="fa-solid fa-bullhorn"></i> Info</span><div class="ticker-viewport"><div class="ticker-track"><span>PPDB Online MTs Hidayatul Mubtadiin tahun ajaran baru telah dibuka.</span><span>Informasi agenda, berita, dan pengumuman resmi tersedia di portal sekolah.</span><span>Madrasah modern, islami, dan berprestasi.</span></div></div></div><div class="desktop-row desktop-school-header"><div class="desktop-topline"><a class="desktop-brand" href="../index.html"><span class="brand-logo"><img src="../assets/images/logo-mts-small.png" alt="Logo MTs Hidayatul Mubtadiin"></span><span><strong>MTs Hidayatul Mubtadiin</strong><small>Madrasah Tsanawiyah Modern</small></span></a><form class="desktop-search" role="search"><i class="fa-solid fa-magnifying-glass"></i><input type="search" placeholder="Cari informasi sekolah..." aria-label="Cari informasi sekolah"></form><div class="desktop-actions" aria-label="Aksi cepat"><button class="icon-btn theme-toggle" type="button" aria-label="Ganti dark mode"><i class="fa-solid theme-icon fa-moon"></i></button><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a><a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></div></div><nav class="desktop-nav desktop-nav-main" aria-label="Navigasi utama"><a href="../index.html">Home</a><div class="dropdown-wrap"><button class="dropdown-toggle" data-target="desktop-profil">Profil <i class="fa-solid fa-chevron-down"></i></button><div class="mega-menu" id="desktop-profil"><a href="../profil/index.html#sejarah"><strong>Sejarah</strong><small>Perjalanan madrasah</small></a><a href="../profil/index.html#visi"><strong>Visi Misi</strong><small>Arah pendidikan</small></a><a href="../profil/index.html#guru"><strong>Guru</strong><small>Tenaga pendidik</small></a><a href="../profil/index.html#sarpras"><strong>Sarpras</strong><small>Fasilitas belajar</small></a><a href="../profil/index.html#prestasi"><strong>Prestasi</strong><small>Capaian siswa</small></a><a href="../profil/index.html#organisasi"><strong>Organisasi</strong><small>Struktur madrasah</small></a></div></div><a class="active" href="../ppdbonline/index.html">PPDB</a><a href="../berita/index.html">Berita</a><a href="../galeri/index.html">Galeri</a><a href="../kontak/index.html">Kontak</a><a href="../login/index.html">Login</a></nav><div class="running-text" aria-label="Informasi berjalan"><span class="ticker-label"><i class="fa-solid fa-bullhorn"></i> Info</span><div class="ticker-viewport"><div class="ticker-track"><span>PPDB Online MTs Hidayatul Mubtadiin tahun ajaran baru telah dibuka.</span><span>Daftar melalui menu SPMB 2026 dan konfirmasi panitia via WhatsApp.</span><span>Informasi agenda, berita, dan pengumuman resmi tersedia di portal sekolah.</span><span>Selamat datang di madrasah modern, islami, dan berprestasi.</span></div></div></div></div></header>
+  <aside class="mobile-drawer"><div class="drawer-head"><strong>Menu</strong><button class="icon-btn drawer-close"><i class="fa-solid fa-xmark"></i></button></div><div class="drawer-links"><a href="../index.html">Home</a><a href="../profil/index.html">Profil</a><a href="../berita/index.html">Berita</a><a href="../galeri/index.html">Galeri</a><a href="../kontak/index.html">Kontak</a><a href="../login/index.html">Login</a></div></aside><div class="drawer-backdrop"></div>
+  <main>
+    <section class="page-hero"><div class="container"><span class="eyebrow">Penerimaan Peserta Didik Baru</span><h1>PPDB Online</h1><p class="lead">Isi formulir berikut. Data akan masuk ke Firestore ketika Firebase sudah dikonfigurasi, dan tetap menampilkan simulasi sukses saat dibuka langsung dari file.</p></div></section>
+    <section class="section container split">
+      <form id="ppdb-form" class="card form-grid two" enctype="multipart/form-data">
+        <div class="field"><label for="nama">Nama Lengkap</label><input id="nama" name="nama" required></div>
+        <div class="field"><label for="nisn">NISN</label><input id="nisn" name="nisn" inputmode="numeric" required></div>
+        <div class="field"><label for="jk">Jenis Kelamin</label><select id="jk" name="jenisKelamin" required><option value="">Pilih</option><option>Laki-laki</option><option>Perempuan</option></select></div>
+        <div class="field"><label for="wa">Nomor WhatsApp</label><input id="wa" name="wa" inputmode="tel" placeholder="62812..." required></div>
+        <div class="field"><label for="asal">Sekolah Asal</label><input id="asal" name="sekolahAsal" required></div>
+        <div class="field"><label for="foto">Upload Foto</label><input id="foto" name="foto" type="file" accept="image/*"></div>
+        <div class="field"><label for="kk">Upload KK</label><input id="kk" name="kk" type="file" accept="image/*,.pdf"></div>
+        <div class="field"><label for="akta">Upload Akta</label><input id="akta" name="akta" type="file" accept="image/*,.pdf"></div>
+        <div class="field" style="grid-column:1/-1"><label for="alamat">Alamat</label><textarea id="alamat" name="alamat" required></textarea></div>
+        <div style="grid-column:1/-1"><button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Kirim Pendaftaran</button><p id="ppdb-status" class="lead" role="status"></p></div>
+      </form>
+      <aside class="card">
+        <h2>Alur pendaftaran</h2>
+        <div class="list">
+          <div class="list-item"><div class="datebox">1</div><div><strong>Isi data</strong><p class="lead">Lengkapi identitas calon siswa dan wali.</p></div></div>
+          <div class="list-item"><div class="datebox">2</div><div><strong>Unggah berkas</strong><p class="lead">Foto, KK, dan akta tersusun seperti folder Google Drive.</p></div></div>
+          <div class="list-item"><div class="datebox">3</div><div><strong>Konfirmasi</strong><p class="lead">WhatsApp panitia otomatis terbuka setelah submit.</p></div></div>
+        </div>
+      </aside>
+    </section>
+  </main>
+  <div class="modal" id="success-modal"><div class="modal-card"><h2>Pendaftaran Terkirim</h2><p class="lead">Data PPDB berhasil diproses. Silakan lanjutkan konfirmasi melalui WhatsApp panitia.</p><button class="btn btn-primary modal-close">Selesai</button></div></div>
+  <script src="../data/site-data.js"></script>
+  <script src="../assets/js/app.js" defer></script>
+  <script type="module" src="../firebase/firestore.js"></script>
+</body>
+</html>
+

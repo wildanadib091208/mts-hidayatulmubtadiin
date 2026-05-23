@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard Admin | MTs Hidayatul Mubtadiin</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <main class="dashboard-shell">
+    <aside class="sidebar">
+      <a class="desktop-brand" href="../index.html"><span class="brand-logo"><img src="../assets/images/logo-mts-small.png" alt="Logo MTs Hidayatul Mubtadiin"></span><span>Admin Panel</span></a>
+      <nav class="side-nav" style="margin-top:18px">
+        <button class="active" data-panel="overview"><i class="fa-solid fa-chart-line"></i> Statistik</button>
+        <button data-panel="berita"><i class="fa-solid fa-newspaper"></i> Berita</button>
+        <button data-panel="galeri"><i class="fa-solid fa-images"></i> Galeri</button>
+        <button data-panel="agenda"><i class="fa-solid fa-calendar-days"></i> Agenda</button>
+        <button data-panel="ppdb"><i class="fa-solid fa-user-plus"></i> Data PPDB</button>
+        <button id="logout-btn"><i class="fa-solid fa-right-from-bracket"></i> Logout</button>
+      </nav>
+    </aside>
+    <section class="dash-main">
+      <div class="section-head"><div><span class="eyebrow">Dashboard</span><h1>Admin MTs Hidayatul Mubtadiin</h1></div><button class="icon-btn theme-toggle" aria-label="Dark mode"><i class="fa-solid theme-icon fa-moon"></i></button></div>
+      <div id="panel-overview" class="admin-panel">
+        <div class="grid stats-grid"><div class="card stat"><strong id="stat-berita">0</strong><span>Berita</span></div><div class="card stat"><strong id="stat-galeri">0</strong><span>Galeri</span></div><div class="card stat"><strong id="stat-agenda">0</strong><span>Agenda</span></div><div class="card stat"><strong id="stat-ppdb">0</strong><span>Pendaftar</span></div></div>
+      </div>
+      <div id="panel-berita" class="admin-panel" hidden><div class="section-head"><h2>CRUD Berita</h2></div><form id="berita-form" class="card form-grid two"><input type="hidden" name="id"><div class="field"><label>Judul</label><input name="title" required></div><div class="field"><label>Kategori</label><input name="category" required></div><div class="field"><label>URL Gambar</label><input name="image" required></div><div class="field"><label>Tanggal</label><input name="date" required></div><div class="field" style="grid-column:1/-1"><label>Ringkasan</label><textarea name="excerpt" required></textarea></div><button class="btn btn-primary" type="submit">Simpan Berita</button></form><div class="table-wrap" style="margin-top:18px"><table><thead><tr><th>Judul</th><th>Kategori</th><th>Aksi</th></tr></thead><tbody id="berita-table"></tbody></table></div></div>
+      <div id="panel-galeri" class="admin-panel" hidden><h2>CRUD Galeri</h2><form id="galeri-form" class="card form-grid two"><input type="hidden" name="id"><div class="field"><label>Judul</label><input name="title" required></div><div class="field"><label>Kategori</label><input name="category" required></div><div class="field" style="grid-column:1/-1"><label>URL Gambar</label><input name="image" required></div><button class="btn btn-primary" type="submit">Simpan Galeri</button></form><div class="table-wrap" style="margin-top:18px"><table><thead><tr><th>Judul</th><th>Kategori</th><th>Aksi</th></tr></thead><tbody id="galeri-table"></tbody></table></div></div>
+      <div id="panel-agenda" class="admin-panel" hidden><h2>CRUD Agenda</h2><form id="agenda-form" class="card form-grid two"><input type="hidden" name="id"><div class="field"><label>Judul</label><input name="title" required></div><div class="field"><label>Tempat</label><input name="place" required></div><div class="field"><label>Tanggal</label><input name="day" required></div><div class="field"><label>Bulan</label><input name="month" required></div><button class="btn btn-primary" type="submit">Simpan Agenda</button></form><div class="table-wrap" style="margin-top:18px"><table><thead><tr><th>Judul</th><th>Tanggal</th><th>Aksi</th></tr></thead><tbody id="agenda-table"></tbody></table></div></div>
+      <div id="panel-ppdb" class="admin-panel" hidden><div class="card form-grid two"><div class="field"><label>Cari data</label><input id="ppdb-search" placeholder="Nama atau NISN"></div><div class="field"><label>Filter status</label><select id="ppdb-filter"><option value="all">Semua</option><option>Baru</option><option>Diverifikasi</option></select></div></div><div class="table-wrap" style="margin-top:18px"><table><thead><tr><th>Nama</th><th>NISN</th><th>WA</th><th>Status</th></tr></thead><tbody id="ppdb-table"></tbody></table></div></div>
+    </section>
+  </main>
+  <script src="../data/site-data.js"></script><script src="../assets/js/app.js" defer></script><script src="../assets/js/dashboard.js" defer></script><script type="module" src="../firebase/firestore.js"></script>
+</body>
+</html>
+
