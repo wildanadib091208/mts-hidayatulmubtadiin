@@ -3,51 +3,44 @@
 
   <url>
     <loc>https://mtshidayatulmubtadiin.web.id/</loc>
-    <lastmod>2025-05-23</lastmod>
+    <lastmod>2025-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://mtshidayatulmubtadiin.web.id/profil.html</loc>
-    <lastmod>2025-05-23</lastmod>
+    <loc>https://mtshidayatulmubtadiin.web.id/profil/index.html</loc>
+    <lastmod>2025-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://mtshidayatulmubtadiin.web.id/ppdb.html</loc>
-    <lastmod>2025-05-23</lastmod>
+    <loc>https://mtshidayatulmubtadiin.web.id/ppdbonline/index.html</loc>
+    <lastmod>2025-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://mtshidayatulmubtadiin.web.id/berita.html</loc>
-    <lastmod>2025-05-23</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://mtshidayatulmubtadiin.web.id/galeri/index.html</loc>
+    <lastmod>2025-05-28</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://mtshidayatulmubtadiin.web.id/galeri.html</loc>
-    <lastmod>2025-05-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://mtshidayatulmubtadiin.web.id/kontak.html</loc>
-    <lastmod>2025-05-23</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://mtshidayatulmubtadiin.web.id/berita/ppdb-2026-dibuka.html</loc>
-    <lastmod>2025-05-23</lastmod>
+    <loc>https://mtshidayatulmubtadiin.web.id/kontak/index.html</loc>
+    <lastmod>2025-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://mtshidayatulmubtadiin.web.id/login/index.html</loc>
+    <lastmod>2025-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 
 </urlset>
