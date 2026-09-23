@@ -1,32 +1,33 @@
 window.MTS_DATA = {
   berita: [
+{
+  title: "Selamat dan Sukses Delegasi Olimpiade Madrasah Indonesia (OMI)",
+  slug: "selamat-dan-sukses-delegasi-olimpiade-madrasah-indonesia-omi",
+  category: "Prestasi",
+  date: "9 September 2026",
+  image: "https://www.facebook.com/photo?fbid=3708350999318133&set=pcb.3708351189318114",
+  excerpt: "MTs Hidayatul Mubtadiin Sekarmojo mengucapkan selamat dan sukses kepada para delegasi yang mengikuti Olimpiade Madrasah Indonesia (OMI) Tahun Ajaran 2026–2027.",
+  content: "MTs Hidayatul Mubtadiin Sekarmojo mengirimkan delegasi untuk mengikuti Olimpiade Madrasah Indonesia (OMI) Tahun Ajaran 2026–2027. Para peserta yang menjadi delegasi adalah Melisa Dwu Novelia, NABILA AGUSTINA, dan Kevin Aprilian Seliwano, dengan pembina Ahmad Nur Budianto, S.Pd. Semoga seluruh delegasi dapat mengikuti rangkaian olimpiade dengan penuh semangat, percaya diri, dan memberikan hasil terbaik serta membawa nama baik madrasah."
+},
     {
-      title: "Program Tahfidz dan Literasi Digital Diperkuat Tahun Ini",
-      slug: "program-tahfidz-dan-literasi-digital-diperkuat-tahun-ini",
-      category: "Akademik",
-      date: "20 Mei 2026",
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80",
-      excerpt: "MTs Hidayatul Mubtadiin memperkuat pembelajaran tahfidz, adab, dan literasi digital untuk membentuk generasi santri yang siap zaman.",
-      content: "Penguatan program dilakukan melalui jadwal murajaah terukur, pembinaan karakter, pemanfaatan media pembelajaran digital, serta evaluasi berkala bersama wali kelas dan pembimbing."
-    },
-    {
-      title: "Siswa Raih Prestasi Olimpiade Sains Madrasah Tingkat Kabupaten",
-      slug: "siswa-raih-prestasi-olimpiade-sains-madrasah-tingkat-kabupaten",
-      category: "Prestasi",
-      date: "18 Mei 2026",
-      image: "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1200&q=80",
-      excerpt: "Tim sains madrasah berhasil membawa pulang penghargaan melalui pembinaan rutin dan kelas pendalaman materi.",
-      content: "Prestasi ini menjadi bukti komitmen madrasah dalam menyeimbangkan kecakapan akademik, spiritual, dan sosial siswa."
-    },
-    {
-      title: "PPDB Online Tahun Ajaran Baru Resmi Dibuka",
-      slug: "ppdb-online-tahun-ajaran-baru-resmi-dibuka",
-      category: "PPDB",
-      date: "15 Mei 2026",
-      image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
-      excerpt: "Calon peserta didik dapat mendaftar dari rumah melalui formulir PPDB online dan konfirmasi otomatis ke WhatsApp panitia.",
-      content: "Panitia PPDB menyediakan jalur pendaftaran online agar proses administrasi lebih cepat, rapi, dan mudah dipantau oleh orang tua."
-    }
+title: "Selamat dan Terima Kasih kepada P2S Alyasini",
+slug: "selamat-dan-terima-kasih-kepada-p2s-alyasini",
+category: "Kegiatan",
+date: "12 juni 2026",
+image: "https://www.facebook.com/photo?fbid=3645264832293417&set=pcb.3645265265626707",
+excerpt: "MTs Hidayatul Mubtadiin Sekarmojo mengucapkan selamat dan terima kasih kepada P2S Alyasini atas dukungan dan kontribusinya dalam kegiatan madrasah.",
+content: "MTs Hidayatul Mubtadiin Sekarmojo mengucapkan selamat dan terima kasih kepada P2S Alyasini atas dukungan, kerja sama, dan kontribusinya dalam mendukung berbagai kegiatan madrasah. Semoga sinergi dan kebersamaan yang telah terjalin dapat terus memberikan manfaat serta menjadi bagian dari ikhtiar bersama dalam memajukan pendidikan dan menciptakan lingkungan madrasah yang lebih baik. Terima kasih atas dedikasi dan peran yang telah diberikan. Semoga P2S Alyasini senantiasa sukses dan terus memberikan kontribusi positif bagi madrasah."
+},
+
+  {
+  title: "PPDB Online Tahun Ajaran Baru Resmi Dibuka",
+  slug: "ppdb-online-tahun-ajaran-baru-resmi-dibuka",
+  category: "PPDB",
+  date: "15 Mei 2026",
+  image: "assets/images/ppdb.webp",
+  excerpt: "Calon peserta didik dapat mendaftar dari rumah melalui formulir PPDB online dan konfirmasi otomatis ke WhatsApp panitia.",
+  content: "Panitia PPDB menyediakan jalur pendaftaran online agar proses administrasi lebih cepat, rapi, dan mudah dipantau oleh orang tua."
+}
   ],
   pengumuman: [
     { day: "22", month: "Mei", title: "Rapat Wali Murid Kelas VII", body: "Kegiatan dilaksanakan pukul 08.00 WIB di aula madrasah." },
