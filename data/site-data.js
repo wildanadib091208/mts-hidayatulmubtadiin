@@ -5,7 +5,7 @@ window.MTS_DATA = {
   slug: "selamat-dan-sukses-delegasi-olimpiade-madrasah-indonesia-omi",
   category: "Prestasi",
   date: "9 September 2026",
-  image: "https://www.facebook.com/share/19GvNXKETy/",
+  image: ""assets/images/"mts01.jpg",
   excerpt: "MTs Hidayatul Mubtadiin Sekarmojo mengucapkan selamat dan sukses kepada para delegasi yang mengikuti Olimpiade Madrasah Indonesia (OMI) Tahun Ajaran 2026–2027.",
   content: "MTs Hidayatul Mubtadiin Sekarmojo mengirimkan delegasi untuk mengikuti Olimpiade Madrasah Indonesia (OMI) Tahun Ajaran 2026–2027. Para peserta yang menjadi delegasi adalah Melisa Dwu Novelia, NABILA AGUSTINA, dan Kevin Aprilian Seliwano, dengan pembina Ahmad Nur Budianto, S.Pd. Semoga seluruh delegasi dapat mengikuti rangkaian olimpiade dengan penuh semangat, percaya diri, dan memberikan hasil terbaik serta membawa nama baik madrasah."
 },
@@ -14,7 +14,7 @@ title: "Selamat dan Terima Kasih kepada P2S Alyasini",
 slug: "selamat-dan-terima-kasih-kepada-p2s-alyasini",
 category: "Kegiatan",
 date: "12 juni 2026",
-image: "https://www.facebook.com/photo?fbid=3645264832293417&set=pcb.3645265265626707",
+image: "assets/images/"mts02.jpg",
 excerpt: "MTs Hidayatul Mubtadiin Sekarmojo mengucapkan selamat dan terima kasih kepada P2S Alyasini atas dukungan dan kontribusinya dalam kegiatan madrasah.",
 content: "MTs Hidayatul Mubtadiin Sekarmojo mengucapkan selamat dan terima kasih kepada P2S Alyasini atas dukungan, kerja sama, dan kontribusinya dalam mendukung berbagai kegiatan madrasah. Semoga sinergi dan kebersamaan yang telah terjalin dapat terus memberikan manfaat serta menjadi bagian dari ikhtiar bersama dalam memajukan pendidikan dan menciptakan lingkungan madrasah yang lebih baik. Terima kasih atas dedikasi dan peran yang telah diberikan. Semoga P2S Alyasini senantiasa sukses dan terus memberikan kontribusi positif bagi madrasah."
 },
