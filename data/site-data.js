@@ -5,7 +5,7 @@ window.MTS_DATA = {
   slug: "selamat-dan-sukses-delegasi-olimpiade-madrasah-indonesia-omi",
   category: "Prestasi",
   date: "9 September 2026",
-  image: "https://www.facebook.com/photo?fbid=3708350999318133&set=pcb.3708351189318114",
+  image: "https://www.facebook.com/share/19GvNXKETy/",
   excerpt: "MTs Hidayatul Mubtadiin Sekarmojo mengucapkan selamat dan sukses kepada para delegasi yang mengikuti Olimpiade Madrasah Indonesia (OMI) Tahun Ajaran 2026–2027.",
   content: "MTs Hidayatul Mubtadiin Sekarmojo mengirimkan delegasi untuk mengikuti Olimpiade Madrasah Indonesia (OMI) Tahun Ajaran 2026–2027. Para peserta yang menjadi delegasi adalah Melisa Dwu Novelia, NABILA AGUSTINA, dan Kevin Aprilian Seliwano, dengan pembina Ahmad Nur Budianto, S.Pd. Semoga seluruh delegasi dapat mengikuti rangkaian olimpiade dengan penuh semangat, percaya diri, dan memberikan hasil terbaik serta membawa nama baik madrasah."
 },
